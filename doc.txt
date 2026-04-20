@@ -1,0 +1,53 @@
+1. Nguồn gốc của giá trị thặng dư
+Tóm tắt: Theo C. Mác, tiền chỉ biến thành tư bản khi nó được vận động theo công thức T - H - T’, trong đó T’ = T + ∆t (với ∆t > 0 là giá trị thặng dư)
+. Nguồn gốc của giá trị thặng dư không nằm ở lưu thông (mua rẻ bán đắt) mà nằm ở một loại hàng hóa đặc biệt: hàng hóa sức lao động
+,
+.
+Hàng hóa sức lao động có giá trị sử dụng đặc biệt là khi tiêu dùng nó, nó không những bảo tồn được giá trị cũ mà còn tạo ra giá trị mới lớn hơn giá trị của bản thân nó
+.
+Quá trình sản xuất giá trị thặng dư là sự thống nhất của quá trình tạo ra giá trị sử dụng và quá trình làm tăng giá trị
+.
+Ví dụ cụ thể: Một nhà tư bản thuê công nhân làm việc trong 8 giờ với tiền công là 15 USD/ngày (đây là giá trị sức lao động để công nhân mua nhu yếu phẩm sống)
+.
+Trong 4 giờ đầu, công nhân đã tạo ra một lượng sản phẩm có giá trị mới đúng bằng 15 USD. Lúc này, nhà tư bản đã thu hồi đủ tiền lương trả cho công nhân (gọi là thời gian lao động tất yếu)
+.
+Trong 4 giờ sau, công nhân tiếp tục làm việc và tạo ra thêm 15 USD giá trị mới nữa. Phần 15 USD này nhà tư bản không trả cho công nhân mà nắm giữ lấy (gọi là thời gian lao động thặng dư)
+,
+.
+Kết luận: 15 USD dôi ra ở 4 giờ sau chính là giá trị thặng dư
+.
+2. Bản chất của giá trị thặng dư
+Tóm tắt: Giá trị thặng dư (m) là bộ phận giá trị mới dôi ra ngoài giá trị sức lao động do công nhân tạo ra và bị nhà tư bản chiếm đoạt
+.
+Bản chất của giá trị thặng dư phản ánh quan hệ bóc lột giữa giai cấp tư sản (người mua sức lao động) và giai cấp công nhân làm thuê (người bán sức lao động)
+,
+.
+Để đo lường mức độ và quy mô bóc lột, C. Mác dùng hai phạm trù: tỷ suất giá trị thặng dư (m’) phản ánh trình độ khai thác sức lao động và khối lượng giá trị thặng dư (M) phản ánh quy mô bóc lột bằng tiền
+,
+.
+Ví dụ cụ thể: Dựa vào ví dụ ở phần 1:
+Giá trị thặng dư (m) = 15 USD.
+Giá trị sức lao động (v) = 15 USD.
+Tỷ suất giá trị thặng dư (m’) = (15 / 15) x 100% = 100%. Con số này cho thấy cứ 1 giờ làm cho mình thì công nhân phải làm 1 giờ không công cho nhà tư bản
+.
+Nếu nhà tư bản thuê 100 công nhân, Khối lượng giá trị thặng dư (M) = 100% x (15 USD x 100 người) = 1.500 USD
+.
+3. Các phương pháp sản xuất giá trị thặng dư
+C. Mác chỉ ra hai phương pháp chính để tăng lượng giá trị thặng dư:
+a. Sản xuất giá trị thặng dư tuyệt đối
+Tóm tắt: Là phương pháp thu được bằng cách kéo dài ngày lao động vượt quá thời gian lao động tất yếu, trong khi năng suất lao động và thời gian lao động tất yếu không đổi
+.
+Ví dụ: Một xí nghiệp may mặc quy định ngày làm việc 8 giờ, trong đó 4 giờ là tất yếu, 4 giờ là thặng dư (m’ = 100%). Để tăng lợi nhuận, chủ xí nghiệp ép công nhân làm thêm 2 giờ mỗi ngày (tổng 10 giờ) nhưng không tăng lương cơ bản tương ứng với giá trị tạo ra. Lúc này thời gian thặng dư tăng lên 6 giờ, tỷ suất m’ = (6/4) x 100% = 150%
+,
+.
+b. Sản xuất giá trị thặng dư tương đối
+Tóm tắt: Là phương pháp thu được bằng cách rút ngắn thời gian lao động tất yếu nhờ tăng năng suất lao động xã hội, từ đó kéo dài thời gian lao động thặng dư trong khi độ dài ngày lao động không đổi
+.
+Ví dụ: Ngày lao động vẫn là 8 giờ. Nhờ áp dụng máy móc hiện đại vào ngành sản xuất thực phẩm, giá nhu yếu phẩm giảm xuống, dẫn đến giá trị sức lao động giảm. Trước đây công nhân cần 4 giờ để tạo ra giá trị bằng tiền lương, nay chỉ cần 2 giờ. Kết quả là thời gian lao động thặng dư tăng từ 4 giờ lên 6 giờ (m’ tăng từ 100% lên 300%)
+,
+.
+c. Giá trị thặng dư siêu ngạch (hình thái biến tướng của m tương đối)
+Tóm tắt: Thu được khi một doanh nghiệp riêng biệt áp dụng kỹ thuật mới làm cho giá trị cá biệt của hàng hóa thấp hơn giá trị xã hội
+.
+Ví dụ: Cả ngành dệt mất 2 giờ để làm ra 1 cái áo (giá thị trường là 10 USD). Riêng công ty A lắp đặt robot tự động nên chỉ mất 1 giờ để làm ra 1 cái áo. Khi bán theo giá thị trường (10 USD), công ty A thu được một khoản lợi nhuận vượt trội so với các công ty khác. Phần vượt trội này là giá trị thặng dư siêu ngạch
+.
