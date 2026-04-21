@@ -39,3 +39,47 @@
 ::-webkit-scrollbar-thumb {
   @apply bg-zinc-300 rounded-full hover:bg-soviet-red/50;
 }
+
+.leaf-fall-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 30;
+}
+
+.leaf-particle {
+  position: absolute;
+  top: -12%;
+  border-radius: 70% 30% 65% 35%;
+  filter: blur(0.8px) drop-shadow(0 1px 1px rgba(120, 38, 12, 0.2));
+  mix-blend-mode: multiply;
+  will-change: transform, opacity;
+  animation-name: leaf-fall, leaf-sway;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+}
+
+@keyframes leaf-fall {
+  0% {
+    transform: translate3d(0, -10vh, 0) rotate(0deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 115vh, 0) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes leaf-sway {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 56px;
+  }
+}
