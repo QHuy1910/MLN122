@@ -5,64 +5,64 @@ import { BookOpen, Info, X } from 'lucide-react';
 const sections = [
   {
     title: 'Bản chất của giá trị thặng dư',
-    subtitle: 'Quan hệ bóc lột',
+    subtitle: 'Quan hệ bóc lột lao động làm thuê',
     summary:
-      'Giá trị thặng dư (m) là phần giá trị mới dôi ra ngoài giá trị sức lao động (v) do công nhân tạo ra và bị nhà tư bản chiếm không công.',
+      'Theo C. Mác, bản chất của giá trị thặng dư chính là sự bóc lột lao động làm thuê của nhà tư bản đối với công nhân.',
     content:
-      'Bản chất của giá trị thặng dư phản ánh quan hệ bóc lột lao động làm thuê. Công nhân tạo ra giá trị mới lớn hơn tiền công nhận được, và phần chênh lệch đó thuộc về nhà tư bản.',
+      'Nhà tư bản trả lương cho công nhân nhưng không trả hết giá trị mà họ tạo ra. Họ chỉ trả phần đủ để người lao động duy trì cuộc sống và tiếp tục làm việc, còn phần giá trị dôi ra sẽ bị chiếm lấy dưới hình thức lợi nhuận.',
     example: {
-      title: 'Ví dụ về bản chất bóc lột',
+      title: 'Giải thích bản chất bóc lột',
       image:
         'https://res.cloudinary.com/dbdnvpfw8/image/upload/v1776677565/Gemini_Generated_Image_e9h8xfe9h8xfe9h8_jgbihp.png',
       alt: 'Bản chất giá trị thặng dư',
-      formula: 'm = Giá trị mới tạo ra - v = 30 - 15 = 15 (USD)',
+      formula: 'Tiền lương ≠ Toàn bộ giá trị lao động tạo ra',
       points: [
-        'Công nhân tạo ra 30 USD giá trị mới trong ngày lao động.',
-        'Tiền công (giá trị sức lao động v) chỉ là 15 USD.',
-        'Phần chênh lệch m = 15 USD là giá trị thặng dư.',
-        'Phần 15 USD này là lao động không công của công nhân.'
+        'Công nhân tạo ra giá trị lớn hơn tiền lương nhận được.',
+        'Tiền lương chỉ đủ để tái sản xuất sức lao động.',
+        'Phần giá trị dôi ra bị nhà tư bản chiếm lấy.',
+        'Phần đó chính là giá trị thặng dư và trở thành lợi nhuận.'
       ]
     }
   },
   {
-    title: "Tỷ suất giá trị thặng dư (m')",
-    subtitle: 'Thước đo cường độ bóc lột',
+    title: 'Lao động cần thiết và lao động thặng dư',
+    subtitle: 'Nguồn tạo ra giá trị thặng dư',
     summary:
-      "Tỷ suất giá trị thặng dư m' cho biết mức độ bóc lột, được tính bằng tỷ lệ phần trăm giữa giá trị thặng dư (m) và tư bản khả biến (v).",
+      'Giá trị thặng dư được tạo ra từ phần lao động thặng dư – tức phần lao động không được trả công của công nhân.',
     content:
-      "Tỷ suất m' không đo quy mô tuyệt đối mà đo cường độ bóc lột sức lao động. Khi m' tăng, nghĩa là trong cùng một ngày lao động, phần thời gian lao động không công tăng lên.",
+      'Nhà tư bản mua sức lao động chứ không phải mua toàn bộ lao động. Trong ngày làm việc, công nhân phải làm đủ thời gian để bù lại tiền lương và tiếp tục làm thêm để tạo ra giá trị cho nhà tư bản.',
     example: {
-      title: 'Ví dụ về tính tỷ suất',
+      title: 'Ví dụ ngày lao động 8 giờ',
       image:
         'https://res.cloudinary.com/dbdnvpfw8/image/upload/v1776677714/Screenshot_2026-04-20_163503_lciae7.png',
-      alt: 'Tỷ suất giá trị thặng dư',
-      formula: "m' = (m / v) * 100% = (15 / 15) * 100% = 100%",
+      alt: 'Lao động cần thiết và lao động thặng dư',
+      formula: '4 giờ lao động cần thiết + 4 giờ lao động thặng dư',
       points: [
-        'm = 15 USD và v = 15 USD.',
-        "m' = (m / v) * 100% = 100%.",
-        'Cứ 1 giờ làm cho bản thân thì công nhân phải làm thêm 1 giờ cho nhà tư bản.',
-        'Tỷ suất 100% cho thấy mức bóc lột là ngang bằng thời gian lao động tất yếu.'
+        '4 giờ đầu tạo ra giá trị đủ bù tiền lương cho công nhân.',
+        'Đây gọi là lao động cần thiết.',
+        '4 giờ sau là phần lao động không được trả công.',
+        'Đây chính là lao động thặng dư tạo ra giá trị thặng dư.'
       ]
     }
   },
   {
-    title: 'Khối lượng giá trị thặng dư (M)',
-    subtitle: 'Thước đo quy mô bóc lột',
+    title: 'Kết luận về bản chất giá trị thặng dư',
+    subtitle: 'Nguồn gốc lợi nhuận tư bản',
     summary:
-      "Khối lượng giá trị thặng dư M là tổng phần giá trị thặng dư thu được, phụ thuộc vào tỷ suất m' và tổng tư bản khả biến V.",
+      'Lợi nhuận của nhà tư bản không đến từ lưu thông mà bắt nguồn từ phần lao động không công của công nhân làm thuê.',
     content:
-      "Nếu m' phản ánh cường độ bóc lột, thì M phản ánh quy mô bóc lột. Cùng một tỷ suất bóc lột, khi số công nhân hoặc tổng tư bản khả biến tăng thì tổng giá trị thặng dư cũng tăng.",
+      'Giá trị thặng dư phản ánh mối quan hệ đối kháng giữa tư bản và lao động. Mục tiêu của sản xuất tư bản chủ nghĩa là tối đa hóa phần lao động thặng dư để thu được nhiều lợi nhuận hơn.',
     example: {
-      title: 'Ví dụ về tính khối lượng',
+      title: 'Ý nghĩa thực chất',
       image:
         'https://res.cloudinary.com/dbdnvpfw8/image/upload/v1776677655/Screenshot_2026-04-20_163402_vqvred.png',
-      alt: 'Khối lượng giá trị thặng dư',
-      formula: "M = m' * V = 100% * (15 USD * 100 người) = 1500 USD",
+      alt: 'Kết luận bản chất giá trị thặng dư',
+      formula: 'Lao động không công → Giá trị thặng dư → Lợi nhuận',
       points: [
-        "m' = 100%, v mỗi công nhân = 15 USD.",
-        'Thuê 100 công nhân thì V = 15 * 100 = 1500 USD.',
-        "M = m' * V = 100% * 1500 = 1500 USD.",
-        'Tổng giá trị thặng dư nhà tư bản chiếm được là 1500 USD.'
+        'Nhà tư bản luôn tìm cách tăng phần lao động thặng dư.',
+        'Có thể bằng cách kéo dài thời gian làm việc.',
+        'Hoặc tăng cường độ lao động và năng suất.',
+        'Mục tiêu cuối cùng là tối đa hóa lợi nhuận.'
       ]
     }
   }
