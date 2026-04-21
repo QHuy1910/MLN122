@@ -7,6 +7,7 @@ const SUBSECTION_TITLE_PATTERN = /^\d+[\)\.]\s+/;
 const FIRST_SUBSECTION_PATTERN = /^1[\)\.]\s+/;
 const BULLET_LINE_PATTERN = /^[-•]\s*/;
 const SEPARATOR_LINE_PATTERN = /^_+$/;
+const LAPTOP_VIDEO_SRC = '/video/H%C3%A0nh_Tr%C3%ACnh_B%C3%AD_M%E1%BA%ADt_C%E1%BB%A7a_Laptop.mp4';
 
 const parseSections = (rawText) => {
   const lines = rawText
@@ -313,6 +314,22 @@ const CQPage = () => {
             })}
           </div>
         </div>
+
+        <motion.section
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.45 }}
+          className="mt-12 rounded-[2rem] overflow-hidden border border-[#dfc49d] bg-white shadow-[0_25px_55px_rgba(110,65,30,0.12)]"
+        >
+          <div className="px-6 md:px-8 py-6 border-b border-[#efe2ca] bg-gradient-to-r from-[#fff8ec] to-[#fff2df]">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-[#9c5f4d] font-black mb-2">Video minh họa</p>
+            <h2 className="text-2xl md:text-3xl font-black text-[#7a1f1a] leading-tight">Hành Trình Bí Mật Của Laptop</h2>
+          </div>
+          <div className="p-4 md:p-6 bg-zinc-900">
+            <video className="w-full rounded-xl" controls preload="metadata" src={LAPTOP_VIDEO_SRC} />
+          </div>
+        </motion.section>
       </div>
     </section>
   );

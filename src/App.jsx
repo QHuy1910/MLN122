@@ -8,6 +8,7 @@ import Methodology from './components/Methodology'
 import Footer from './components/Footer'
 import CardGame from './components/CardGame'
 import CQPage from './components/CQPage'
+import OverviewPage from './components/OverviewPage'
 
 const HomePage = () => (
   <>
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/game" element={<CardGame />} />
           <Route path="/cq" element={<CQPage />} />
+          <Route path="/tong-quat" element={<OverviewPage />} />
         </Routes>
         
         <Footer />

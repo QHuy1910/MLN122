@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Club, Heart, Spade, Diamond, RefreshCcw, Hand, Trophy, TriangleAlert, Cpu, ArrowLeft, HelpCircle, CheckCircle2, XCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+const LAPTOP_VIDEO_SRC = '/video/H%C3%A0nh_Tr%C3%ACnh_B%C3%AD_M%E1%BA%ADt_C%E1%BB%A7a_Laptop.mp4';
+
 const SUITS = [
   { name: 'Spades', icon: <Spade className="w-6 h-6" />, color: 'text-zinc-900' },
   { name: 'Hearts', icon: <Heart className="w-6 h-6" />, color: 'text-soviet-red' },
@@ -695,6 +697,22 @@ const CardGame = () => {
             </div>
           )}
         </div>
+
+        <motion.section
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: '-80px' }}
+          transition={{ duration: 0.45 }}
+          className="mt-16 rounded-[2rem] overflow-hidden border border-soviet-red/30 bg-zinc-900/70 shadow-[0_25px_45px_rgba(0,0,0,0.35)]"
+        >
+          <div className="px-6 md:px-8 py-6 border-b border-soviet-red/20 bg-zinc-900/90">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 font-black mb-2">Video minh họa</p>
+            <h3 className="text-2xl md:text-3xl font-black text-white leading-tight">Hành Trình Bí Mật Của Laptop</h3>
+          </div>
+          <div className="p-4 md:p-6 bg-black/70">
+            <video className="w-full rounded-xl" controls preload="metadata" src={LAPTOP_VIDEO_SRC} />
+          </div>
+        </motion.section>
       </div>
 
       {/* Quiz Modal */}

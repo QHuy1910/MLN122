@@ -13,11 +13,11 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
+    { name: 'Tổng quát', path: '/tong-quat' },
     { name: 'Nguồn Gốc', id: 'origin', path: '/#origin' },
     { name: 'Bản Chất', id: 'nature', path: '/#nature' },
     { name: 'Phương pháp', id: 'methodology', path: '/#methodology' },
-    { name: 'Trò chơi', path: '/game' },
-    { name: 'CQ', path: '/cq' }
+    { name: 'CQ & Trò Chơi', path: '/cq' }
   ];
 
   return (
